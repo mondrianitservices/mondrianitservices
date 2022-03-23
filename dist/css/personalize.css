@@ -1,0 +1,42 @@
+/* Colors Mondrian template
+Rojo: #E11331
+rgba(225, 19, 49, 0.8);
+
+Azul: #0799EA
+rgba(7, 153, 234, 1);
+
+Amarillo:#FFD700 
+rgba(255, 215, 0, 1)
+*/
+
+section{
+  scroll-behavior: smooth !important; 
+}
+
+.ImageMondrian div{
+  width: fit-content;
+}
+
+/* Style the links inside the navigation bar */
+.navClass a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+
+/* Change the color of links on hover */
+.navClass a.active:hover {
+  background-color:rgba(7, 153, 234, 0.8);
+  border-radius: 25px;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.navClass a.active {
+  background-color: none;
+  color: #333;
+}
