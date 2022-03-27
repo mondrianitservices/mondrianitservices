@@ -18,7 +18,7 @@ section{
 }
 
 /* Style the links inside the navigation bar */
-.navClass a {
+.navClass a.nav-link{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,14 +29,18 @@ section{
 
 
 /* Change the color of links on hover */
-.navClass a.active:hover {
+.navClass a.nav-link:hover {
   background-color:rgba(7, 153, 234, 0.8);
   border-radius: 25px;
   color: white;
 }
 
 /* Add a color to the active/current link */
-.navClass a.active {
+.navClass a.nav-link {
   background-color: none;
   color: #333;
+}
+
+.videoPart {
+  width: 100%;
 }
