@@ -1525,7 +1525,7 @@ label {
 .features::before {
 	content: '';
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1892,7 +1892,7 @@ main {
 .site-footer a:hover,
 .site-footer a:active {
 	color: #fff;
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .site-footer-inner {
@@ -1934,7 +1934,8 @@ main {
 }
 
 .footer-social-links li a {
-	padding: 8px
+	padding: 8px;
+	font-size: 25px !important;
 }
 
 @media (min-width: 641px) {

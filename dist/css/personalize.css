@@ -44,3 +44,13 @@ section{
 .videoPart {
   width: 100%;
 }
+
+.navbar{
+  backdrop-filter: blur(10px);
+}
+
+.info p{
+   margin-left: 15px;
+   margin-bottom: 15px !important;
+}
+
